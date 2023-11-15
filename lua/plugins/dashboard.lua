@@ -26,6 +26,7 @@ return {
           header = vim.split(logo, "\n"),
         -- stylua: ignore
         center = {
+          { action = "Telescope file_browser file_browser initial_mode=normal",                                     desc = " Launch NVIM",       icon = " " },
           { action = "Telescope find_files",                                     desc = " Find file",       icon = " ", key = "f" },
           { action = "ene | startinsert",                                        desc = " New file",        icon = " ", key = "n" },
           { action = "Telescope oldfiles",                                       desc = " Recent files",    icon = " ", key = "r" },
