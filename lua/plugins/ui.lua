@@ -71,6 +71,29 @@ return {
     end,
   },
 
+  -- toggleterm
+  {
+    {
+      "akinsho/toggleterm.nvim",
+      version = "*",
+      opts = {
+        open_mapping = [[<C-\>]],
+        direction = "horizontal",
+        shade_filetypes = {},
+        hide_numbers = true,
+        insert_mappings = true,
+        terminal_mappings = true,
+        start_in_insert = true,
+        close_on_exit = true,
+      },
+    },
+  },
+
+  -- transparent
+  {
+    "tribela/vim-transparent",
+  },
+
   -- buffer line
   -- {
   --   "akinsho/bufferline.nvim",
