@@ -90,9 +90,9 @@ return {
   },
 
   -- transparent
-  {
-    "tribela/vim-transparent",
-  },
+  -- {
+  --   "tribela/vim-transparent",
+  -- },
 
   -- buffer line
   -- {
