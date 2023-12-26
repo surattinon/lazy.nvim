@@ -16,8 +16,8 @@ return {
   opts = function()
     return {
       style = "night",
-      transparent = true,
-      tokyonight_dark_float = false,
+      -- transparent = true,
+      -- tokyonight_dark_float = false,
     }
   end,
 }
